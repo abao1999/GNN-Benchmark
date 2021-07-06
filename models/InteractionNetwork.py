@@ -3,8 +3,10 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-# This interaction network model is adapted to HWW analysis from CMS data
-# Some modifications will need to be made to adapt to benchmark datasets
+'''
+This interaction network model is adapted to HWW analysis from CMS data
+Some modifications will need to be made to adapt to benchmark datasets
+'''
 
 # only vertex-particle branch
 class INTagger(nn.Module):
